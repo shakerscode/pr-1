@@ -45,6 +45,16 @@
     .portfolio__container {
       grid-template-columns: 1fr;
       gap: 1rem;
+    } 
+    #portfolio{
+      margin-top: 40px;
+      height: auto;
+    }
+    .portfolio__item-cta{
+      justify-content: center;
+    }
+    .portfolio__item h3{
+      margin: 1rem 0 1rem;
     }
   }
 }

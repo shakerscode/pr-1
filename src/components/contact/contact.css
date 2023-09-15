@@ -67,4 +67,9 @@ textarea {
   .container.contact__container {
     width: var(--container-width-sm);
   }
+  #contact{
+    height: auto;
+    margin-top: 3rem;
+  }
+  
 }

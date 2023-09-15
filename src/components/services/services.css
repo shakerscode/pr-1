@@ -73,11 +73,17 @@
   .container.services__container {
     width: 100%;
   }
-  /* .services {
+  .service {
     width: 100%;
-    margin: 0;
+    margin: 0px 20px;
   }
-  .service__list p {
+  .services {
+    width: 100%;
+    margin-top: 3rem;
+    height: auto;
+  } 
+  .service__list {
+    padding: 1.5rem 0.5rem;
     font-size: 0.5rem;
-  } */
+  }
 }

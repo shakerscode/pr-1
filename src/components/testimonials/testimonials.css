@@ -47,4 +47,8 @@
   .client__review {
     width: var(--container-width-sm);
   }
+  #testimonials{
+    height: auto;
+    margin-top: 3rem;
+  }
 }
