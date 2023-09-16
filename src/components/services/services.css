@@ -72,6 +72,11 @@
 
 /* Small Devices */
 @media screen and (max-width: 600px) {
+
+  #services{
+    height: fit-content;
+    margin-top: 3rem;
+  }
   .container.services__container {
     width: 100%;
   }

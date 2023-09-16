@@ -6,7 +6,7 @@ export const CTA = () => {
         Download Resume
       </a>
       <a href="#contact" className="btn btn-primary">
-        Let's Talk
+        Let&apos;s Talk
       </a>
     </div>
   );

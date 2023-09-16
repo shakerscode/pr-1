@@ -1,14 +1,14 @@
-header {
-  height: 100vh;
+ header {
+  height: fit-content;
   padding-top: 7rem;
   overflow: hidden;
-}
+} 
 
 .header__container {
   text-align: center;
   height: 100%;
   position: relative;
-}
+} 
 
 /* =========== CTA ========== */
 .cta {
@@ -26,7 +26,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0;
-  bottom: 3rem;
+  bottom: 50%;
 }
 
 .header__socials::after {
@@ -37,23 +37,24 @@ header {
 }
 
 /* =========== ME ========== */
-.me {
+
+.me{
+  width: 352px;
+  height: 500px;
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
-  height: 30rem;
-  position: absolute;
-  left: calc(50% - 11rem);
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
-  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
   padding: 1.5rem;
 }
+ 
 
 /* =========== Scroll Down ========== */
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 3rem;
+  bottom: 50%;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.8rem;
@@ -62,16 +63,19 @@ header {
 /* ========= MEDIA QUERIES (Medium Devices) ======== */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: auto;
   }
 }
 
 /* Small Devices */
 @media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: auto;
   }
 
+  .me{
+    width: auto;
+  }
   .header__socials,
   .scroll__down {
     display: none;
