@@ -62,12 +62,21 @@
   .container.services__container {
     width: 100%;
   }
-  /* .services__container {
-    display: none;
-  } */
-  /* .service {
-    height: auto;
-  } */
+
+  #services{ 
+    margin-top: 3.5rem;
+  }
+
+  .service {
+    width: 100%;
+    margin: 0px 60px;
+  }
+
+  .service__list-icon {  
+    width: 40px;
+    height: 30px; 
+  }
+ 
 }
 
 /* Small Devices */

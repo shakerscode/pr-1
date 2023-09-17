@@ -36,6 +36,9 @@
   .container.testimonials__container {
     width: 60%;
   }
+  #testimonials{ 
+    margin-top: 3.5rem;
+  }
 }
 
 /* Small Devices */
